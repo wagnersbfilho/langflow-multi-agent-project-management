@@ -11,7 +11,7 @@ The solution uses Langflow with OpenAI gpt-5 to orchestrate sequential AI agents
 
 The project was developed for academic evaluation, focusing on structured project planning, risk management, and software delivery best practices.
 
-The Langflow Installation Guide (Windows with WSL – Ubuntu) is descrideb on **HELP.md**.
+The Langflow Installation Guide (Windows with WSL – Ubuntu) is described in **HELP.md**.
 
 ---
 
@@ -90,26 +90,26 @@ Each agent follows PMBOK best practices and performs a single, well-defined resp
 
 
 ## Respository Structure
-│
-├── input-prompts/
-│   ├── agent1_business_analist.md
-│   ├── agent2_waterfall_project_planning.md
-│   ├── agent3_wbs_cost_estimation.md
-│   ├── agent4_risk_management.md
-│   ├── agent5_documentation_project_plan.md
-│   ├── agent6_documentation_wbs.md
-│   ├── agent7_documentation_risk_assessment.md
-│
-├── langflow/
-│   └── multi_agent_project_management_gpt_5.json
-│
-├── outputs/
-│   ├── project_plan.md
-│   ├── project_plan.pdf
-│   ├── risk_assessment.md
-│   ├── risk_assessment.pdf
-│   ├── wbs_cost.md
-│   ├── wbs_cost.pdf
-│
-└── README.md
+│ \
+├── input-prompts/ \
+│   ├── agent1_business_analist.md \
+│   ├── agent2_waterfall_project_planning.md \
+│   ├── agent3_wbs_cost_estimation.md \
+│   ├── agent4_risk_management.md \
+│   ├── agent5_documentation_project_plan.md \
+│   ├── agent6_documentation_wbs.md \
+│   ├── agent7_documentation_risk_assessment.md \
+│ \
+├── langflow/ \
+│   └── multi_agent_project_management_gpt_5.json \
+│ \
+├── outputs/ \
+│   ├── project_plan.md \
+│   ├── project_plan.pdf \
+│   ├── risk_assessment.md \
+│   ├── risk_assessment.pdf \
+│   ├── wbs_cost.md \
+│   ├── wbs_cost.pdf \
+│ \
+└── README.md \
 └── HELP.md
