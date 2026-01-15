@@ -49,17 +49,20 @@ Each agent follows PMBOK best practices and performs a single, well-defined resp
 - Defines project phases  
 - Estimates timelines and dependencies  
 - Produces a textual Gantt chart  
+- The **Deliverable 1 - Project Plan Development (Waterfall Methodology)** is generate after this agent
 
 ### Agent 3 – WBS & Cost Estimation
 - Creates a three-level Work Breakdown Structure  
 - Assigns roles and responsibilities  
-- Estimates total project cost  
+- Estimates total project cost
+- The **Deliverable 2 – Work Breakdown Structure (WBS)** is generate after this agent
 
 ### Agent 4 – Risk Management
 - Identifies at least 15 categorized risks  
 - Assesses likelihood and impact  
 - Proposes mitigation strategies  
 - Builds a risk prioritization matrix  
+- The **Deliverable 3 – Risk Assessment** is generate after this agent
 
 ---
 
@@ -87,6 +90,15 @@ Each agent follows PMBOK best practices and performs a single, well-defined resp
 
 
 ## Respository Structure
+│
+├── input-prompts/
+│   ├── agent1_business_analist.md
+│   ├── agent2_waterfall_project_planning.md
+│   ├── agent3_wbs_cost_estimation.md
+│   ├── agent4_risk_management.md
+│   ├── agent5_documentation_project_plan.md
+│   ├── agent6_documentation_wbs.md
+│   ├── agent7_documentation_risk_assessment.md
 │
 ├── langflow/
 │   └── multi_agent_project_management_gpt_5.json
