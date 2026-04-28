@@ -1,8 +1,5 @@
 # AI Multi-Agent System – Documentation Management System Project
 
-## Project Information
-- The project is available (public) in my personal GitHub repository:
-- https://github.com/wagnersbfilho/langflow-multi-agent-project-management
 
 ## Project Overview
 This repository contains a multi-agent AI system designed to support the planning, risk assessment, and delivery of a Documentation Management System (DMS).
